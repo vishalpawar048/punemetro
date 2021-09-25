@@ -129,7 +129,8 @@ import Blog from "../blog/Blog"
 // markup
 const IndexPage = () => {
   return (
-    <Blog></Blog>
+    
+    <Blog> </Blog>
     // <main style={pageStyles}>
     //   <title>Home Page</title>
     //   <h1 style={headingStyles}>
