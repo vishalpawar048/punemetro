@@ -13,33 +13,40 @@ import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
 import TimeTable from './TimeTable';
+import SquarePost from './SquareCard';
 // import post1 from './blog-post.1.md';
 // import post2 from './blog-post.2.md';
 // import post3 from './blog-post.3.md';
 
-const sections = [
-  { title: 'Shopping Places', url: '#' },
-  { title: 'Famous Restaurants', url: '#' },
-  { title: 'Famous Streets', url: '#' },
-  { title: 'Pubs', url: '#' },
-  { title: 'Historical Places', url: '#' },
-  { title: 'Gardans', url: '#' },
-  { title: 'Must Visit', url: '#' },
-  { title: 'Museum', url: '#' },
-  { title: 'Travel', url: '#' },
-  { title: 'Pune Local', url: '#' },
-];
 
-const mainFeaturedPost = {
-  title: 'Title of a longer featured blog post',
-  description:
-    "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
-  image: 'https://image3.mouthshut.com/images/Restaurant/Photo/-79924_6927.jpg',
-  imageText: 'main image description',
-  linkText: 'Continue reading…',
-};
+
+
 
 const featuredPosts = [
+  {
+    title: 'Featured post',
+    date: 'Nov 12',
+    description:
+      'This is a wider card with supporting text ',
+    image: 'https://source.unsplash.com/random',
+    imageLabel: 'Image Text',
+  },
+  {
+    title: 'Featured post',
+    date: 'Nov 12',
+    description:
+      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+    image: 'https://source.unsplash.com/random',
+    imageLabel: 'Image Text',
+  },
+  {
+    title: 'Featured post',
+    date: 'Nov 12',
+    description:
+      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+    image: 'https://source.unsplash.com/random',
+    imageLabel: 'Image Text',
+  },
   {
     title: 'Featured post',
     date: 'Nov 12',
@@ -84,43 +91,25 @@ const sidebar = {
   ],
 };
 
-const theme = createTheme();
+
 
 export default function Blog() {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Container maxWidth="lg">
-     
-        <Header title="Pune Metro" sections={sections} />
+  
         <main>
-        <MainFeaturedPost post={mainFeaturedPost} />
+      
           <Grid item xs={12}>
           <TimeTable></TimeTable>
           </Grid>
-          <Grid container spacing={4}>
+          <Grid container spacing={6}>
             {featuredPosts.map((post) => (
-              <FeaturedPost key={post.title} post={post} />
+              // <FeaturedPost key={post.title} post={post} />
+              <SquarePost key={post.title} post={post} />
+
             ))}
 
           </Grid>
-
-         
-          {/* <Grid container spacing={5} sx={{ mt: 3 }}>
-            <Main title="From the firehose" posts={posts} />
-            <Sidebar
-              title={sidebar.title}
-              description={sidebar.description}
-              archives={sidebar.archives}
-              social={sidebar.social}
-            />
-          </Grid> */}
         </main>
-      </Container>
-      <Footer
-        title="Footer"
-        description="Something here to give the footer a purpose!"
-      />
-    </ThemeProvider>
+     
   );
 }
