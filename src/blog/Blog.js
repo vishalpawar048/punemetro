@@ -34,7 +34,7 @@ const mainFeaturedPost = {
   title: 'Title of a longer featured blog post',
   description:
     "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
-  image: 'https://source.unsplash.com/random',
+  image: 'https://image3.mouthshut.com/images/Restaurant/Photo/-79924_6927.jpg',
   imageText: 'main image description',
   linkText: 'Continue reading…',
 };

@@ -5,6 +5,7 @@ let table = `<!DOCTYPE html>
 table {
   border-collapse: collapse;
   width: 100%;
+  
 }
 
 th, td {
@@ -17,8 +18,6 @@ tr:hover {background-color: #D6EEEE;}
 </style>
 </head>
 <body>
-
-<h2>Pune Metro Time Table</h2>
 
 <table>
   <tr>
