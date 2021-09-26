@@ -6,9 +6,9 @@ import MainFeaturedPost from "../blog/MainFeaturedPost";
 
 import Layout from "../blog/Layout";
 import shaniwarwada from "../images/Shanivarwada.jpeg";
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
- 
   const mainFeaturedPost = {
     title: "Explore Pune",
     description:
@@ -22,6 +22,13 @@ const IndexPage = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <meta
+          name="description"
+          content="Pune Maha Metro Time table. Metro from Vanaz depot to Ramwadi and from PCMC to Swarget."
+        />
+        <title>Pune Metro Time Table</title>
+      </Helmet>
       <MainFeaturedPost post={mainFeaturedPost} />
       <Blog></Blog>
     </Layout>

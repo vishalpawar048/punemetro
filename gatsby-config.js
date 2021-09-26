@@ -29,7 +29,6 @@ module.exports = {
     "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
