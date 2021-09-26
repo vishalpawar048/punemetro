@@ -11,7 +11,7 @@ function SquarePost(props) {
   const { post } = props;
 
   return (
-    <Grid item xs={12} md={4}>
+    <Grid item xs={6} md={4}>
       <Card>
         <CardMedia
           component="img"
@@ -28,8 +28,7 @@ function SquarePost(props) {
           </Typography>
         </CardContent>
         <CardActions>
-          {/* <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button> */}
+         
         </CardActions>
       </Card>
     </Grid>

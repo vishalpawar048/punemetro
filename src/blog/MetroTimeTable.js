@@ -33,7 +33,7 @@ tr:hover {background-color: #D6EEEE;}
     <td>Hinjewadi</td>
     <td>7.30</td>
     <td>8.30</td>
-    <td>M,T,W,T,F,D,S,S</td>
+    <td>M T W T F D S S</td>
   
   </tr>
 
@@ -42,7 +42,7 @@ tr:hover {background-color: #D6EEEE;}
   <td>Hinjewadi</td>
   <td>7.30</td>
   <td>8.30</td>
-  <td>M,T,W,T,F,D,S,S</td>
+   <td>M T W T F D S S</td>
   </tr>
 
   <tr>
@@ -50,7 +50,7 @@ tr:hover {background-color: #D6EEEE;}
   <td>Hinjewadi</td>
   <td>7.30</td>
   <td>8.30</td>
-  <td>M,T,W,T,F,D,S,S</td>
+   <td>M T W T F D S S</td>
   </tr>
 
   <tr>
@@ -58,7 +58,7 @@ tr:hover {background-color: #D6EEEE;}
   <td>Hinjewadi</td>
   <td>7.30</td>
   <td>8.30</td>
-  <td>M,T,W,T,F,D,S,S</td>
+   <td>M T W T F D S S</td>
   </tr>
 
   <tr>
@@ -66,7 +66,7 @@ tr:hover {background-color: #D6EEEE;}
   <td>Hinjewadi</td>
   <td>7.30</td>
   <td>8.30</td>
-  <td>M,T,W,T,F,D,S,S</td>
+   <td>M T W T F D S S</td>
   </tr>
 
   <tr>
@@ -74,7 +74,7 @@ tr:hover {background-color: #D6EEEE;}
   <td>Hinjewadi</td>
   <td>7.30</td>
   <td>8.30</td>
-  <td>M,T,W,T,F,D,S,S</td>
+   <td>M T W T F D S S</td>
   </tr>
   
 </table>

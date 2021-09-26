@@ -6,7 +6,8 @@ module.exports = {
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
-    
+
+
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
@@ -22,13 +23,13 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `src/images/icon.png`
+        icon: `src/images/icon.png`,
       },
     },
     "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-  
+
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -39,6 +40,5 @@ module.exports = {
       },
       __key: "images",
     },
-    
   ],
 };
