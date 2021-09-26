@@ -1,6 +1,7 @@
 let table = `<!DOCTYPE html>
 <html>
 <head>
+<title>Pune Local Time Table</title>
 <style>
 table {
   border-collapse: collapse;
@@ -81,6 +82,6 @@ tr:hover {background-color: #D6EEEE;}
 </body>
 </html>
 
-`
+`;
 
 export default table;

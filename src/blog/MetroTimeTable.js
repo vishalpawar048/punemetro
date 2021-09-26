@@ -1,6 +1,7 @@
 let table = `<!DOCTYPE html>
 <html>
 <head>
+<title>Pune Metro Time Table</title>
 <style>
 table {
   border-collapse: collapse;
