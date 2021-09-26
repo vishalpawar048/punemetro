@@ -2,7 +2,7 @@ let table = `<!DOCTYPE html>
 <html>
 <head>
 <title>Pune Local Time Table</title>
-<meta name="description" content="Pune local train Time table.">
+<meta name="description" content="Pune local train Time table."/>
 
 <style>
 table {
