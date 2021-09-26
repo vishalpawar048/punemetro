@@ -1,5 +1,5 @@
 import * as React from "react";
-import shaniwarwada from "../../../public/images/Shanivarwada.jpeg";
+import shaniwarwada from "../../images/Shanivarwada.jpeg";
 
 export default function GardensBlog(props) {
   const imgStyle = {

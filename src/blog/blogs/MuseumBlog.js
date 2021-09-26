@@ -1,5 +1,5 @@
 import * as React from "react";
-import shaniwarwada from "../../../public/images/Shanivarwada.jpeg";
+import shaniwarwada from "../../images/Shanivarwada.jpeg";
 
 export default function MuseumBlog(props) {
   const imgStyle = {
@@ -31,7 +31,7 @@ export default function MuseumBlog(props) {
       </p>
       <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
-      
+
       <h2 id="heading">2. Aga Khan Palace</h2>
       <p>
         Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.

@@ -5,7 +5,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import MainFeaturedPost from "../blog/MainFeaturedPost";
 
 import Layout from "../blog/Layout";
-import shaniwarwada from "../../public/images/Shanivarwada.jpeg";
+import shaniwarwada from "../images/Shanivarwada.jpeg";
 
 const IndexPage = () => {
  
