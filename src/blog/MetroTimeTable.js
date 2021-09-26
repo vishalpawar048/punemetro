@@ -2,6 +2,7 @@ let table = `<!DOCTYPE html>
 <html>
 <head>
 <title>Pune Metro Time Table</title>
+<meta name="description" content="Pune Maha Metro Time table. Metro from Vanaz depot to Ramwadi and from PCMC to Swarget.">
 <style>
 table {
   border-collapse: collapse;
@@ -83,6 +84,6 @@ tr:hover {background-color: #D6EEEE;}
 </body>
 </html>
 
-`
+`;
 
 export default table;
