@@ -6,7 +6,7 @@ import Layout from "../../Components/Layout";
 import NearbyPlacesBlog from "../../blogs/NearbyPlacesBlog";
 import { sidebar } from "../../Components/Constants";
 
-export default function Restaurants() {
+export default function NearbyPlaces() {
   const blogStyle = {
     marginTop: "50px",
   };
