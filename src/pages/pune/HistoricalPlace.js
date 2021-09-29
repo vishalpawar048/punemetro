@@ -9,7 +9,7 @@ import { sidebar } from "../../Components/Constants"
 
 
 
-export default function HistoricalPlaces() {
+export default function HistoricalPlace() {
   const blogStyle = {
     marginTop:"50px"
   }
