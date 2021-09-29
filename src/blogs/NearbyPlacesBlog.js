@@ -1,14 +1,16 @@
-import * as React from "react";
-import shaniwarwada from "../../images/Shanivarwada.jpeg";
+// pune nearby places to visit
 
-export default function HistoricalplacesBlog(props) {
+import * as React from "react";
+import shaniwarwada from "../images/Shanivarwada.jpeg";
+
+export default function NearbyPlacesBlog(props) {
   const imgStyle = {
     width: "100%",
     height: "auto",
   };
   return (
     <div>
-      <h1 id="sample-blog-post">Places to visit in Pune</h1>
+      <h1 id="sample-blog-post">pune nearby places to visit</h1>
       <h4 id="april-1-2020-by-olivier-">
         Sep 26, 2022 by <a href="/">Vishal</a>
       </h4>

@@ -1,20 +1,20 @@
 import * as React from "react";
 import Grid from "@mui/material/Grid";
-import Main from "../../blog/Main";
-import Sidebar from "../../blog/Sidebar";
-import Layout from "../../blog/Layout";
-import RestaurantsBlog from "../../blog/blogs/RestaurantsBlog";
-import { sidebar } from "../../blog/Constants"
+import Main from "../../Components/Main";
+import Sidebar from "../../Components/Sidebar";
+import Layout from "../../Components/Layout";
+import CollegesBlog from "../../blogs/CollegesBlog";
+import { sidebar } from "../../Components/Constants";
 
-export default function Restaurants() {
+export default function Collages() {
   const blogStyle = {
-    marginTop:"50px"
-  }
+    marginTop: "50px",
+  };
   return (
     <Layout>
-      <Grid style={blogStyle}container spacing={5} item xs={12}>
+      <Grid style={blogStyle} container spacing={5} item xs={12}>
         <Main title="Explore Pune">
-          <RestaurantsBlog />
+          <CollegesBlog />
         </Main>
         <Sidebar
           title={sidebar.title}

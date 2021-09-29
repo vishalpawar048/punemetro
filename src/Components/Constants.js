@@ -10,10 +10,10 @@ const routes = [
   // { title: "Pubs", url: "/pune/Pubs" },
   { title: "Colleges", url: "/pune/Colleges" },
   { title: "Temples", url: "/pune/Temples" },
-  { title: "Historical Places", url: "/pune/Restaurants" },
+  { title: "Historical Places", url: "/pune/HistoricalPlaces" },
   { title: "Gardans", url: "/pune/Gardens" },
-  { title: "Museums", url: "/pune/Restaurants" },
-  { title: "Nearby Places", url: "/pune/Restaurants" },
+  { title: "Museums", url: "/pune/Museums" },
+  { title: "Nearby Places", url: "/pune/NearbyPlaces" },
 ];
 
 const sidebar = {

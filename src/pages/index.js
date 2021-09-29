@@ -1,10 +1,10 @@
 import * as React from "react";
-import Blog from "../blog/Home";
+import HomePage from "./pune/HomePage";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import MainFeaturedPost from "../blog/MainFeaturedPost";
+import MainFeaturedPost from "../Components/MainFeaturedPost";
 
-import Layout from "../blog/Layout";
+import Layout from "../Components/Layout";
 import shaniwarwada from "../images/Shanivarwada.jpeg";
 import { Helmet } from "react-helmet";
 
@@ -15,7 +15,7 @@ const IndexPage = () => {
       "Pune is a city located in the state of Maharashtra. Previously known as Poona, it is a city situated at the junction of Mutha and Mula rivers. It is also given the name – “Queen of the Deccan”. It is considered as a capital of culture for the people of Maratha.",
     image: shaniwarwada,
     imageText: "main image description",
-    linkText: "Continue reading…",
+    // linkText: "Continue reading…",
   };
 
   const theme = createTheme();
@@ -30,7 +30,7 @@ const IndexPage = () => {
         <title>Pune Metro Time Table</title>
       </Helmet>
       <MainFeaturedPost post={mainFeaturedPost} />
-      <Blog></Blog>
+      <HomePage></HomePage>
     </Layout>
   );
 };

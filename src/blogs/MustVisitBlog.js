@@ -1,7 +1,7 @@
 import * as React from "react";
-import shaniwarwada from "../../images/Shanivarwada.jpeg";
+import shaniwarwada from "../images/Shanivarwada.jpeg";
 
-export default function CollegesBlog(props) {
+export default function MustVisitBlog(props) {
   const imgStyle = {
     width: "100%",
     height: "auto",

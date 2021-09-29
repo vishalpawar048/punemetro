@@ -1,7 +1,7 @@
 import * as React from "react";
-import shaniwarwada from "../../images/Shanivarwada.jpeg";
+import shaniwarwada from "../images/Shanivarwada.jpeg";
 
-export default function GardensBlog(props) {
+export default function CollegesBlog(props) {
   const imgStyle = {
     width: "100%",
     height: "auto",
@@ -22,16 +22,34 @@ export default function GardensBlog(props) {
       </p>
 
       {/* Start */}
-      <h2 id="heading">1. Shaniwar Wada Palace</h2>
+      <h2 id="heading">1. COEP College </h2>
       <p>
-        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-        Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-        lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac,
-        vestibulum at eros.
+        College of Engineering, Pune (CoEP), chartered in 1854 is a nationally
+        respected leader in technical education. The institute is distinguished
+        by its commitment to finding solutions to the great predicaments of the
+        day through advanced technology. The institute has a rich history and
+        dedication to the pursuit of excellence. CoEP offers a unique learning
+        experience across a spectrum of academic and social experiences. With a
+        firm footing in truth and humanity, the institute gives you an
+        understanding of both technical developments and the ethics that go with
+        it. The curriculum is designed to enhance your academic experience
+        through opportunities like internships, study abroad programmes and
+        research facilities. The hallmark of CoEP education is its strong and
+        widespread alumni network, support of the industry and the camaraderie
+        that the institute shares with several foreign universities. The
+        institute is consistently ranked amongst the top 20 technical colleges
+        in India and its alumni have contributed a lion’s share in development
+        of national infrastructure.
+        <p></p>Postal Address:
+        <p></p>College of Engg. Pune,
+        <p></p>Wellesely Rd,
+        <p></p>Shivajinagar,
+        <p></p>Pune-411 005.
+        <p></p>Maharashtra, INDIA.
       </p>
       <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
-      
+
       <h2 id="heading">2. Aga Khan Palace</h2>
       <p>
         Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.

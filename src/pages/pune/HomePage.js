@@ -1,15 +1,18 @@
 import * as React from "react";
 import Grid from "@mui/material/Grid";
 
-import Main from "./Main";
-import Sidebar from "./Sidebar";
-import TimeTable from "./TimeTable";
-import SquarePost from "./SquareCard";
-import HomePageBlog from "./blogs/HomePageBlog";
-import { sidebar } from "./Constants";
+import Main from "../../Components/Main";
+import Sidebar from "../../Components/Sidebar";
+import TimeTable from "../../Components/TimeTable";
+import SquarePost from "../../Components/SquareCard";
+import HomePageBlog from "../../blogs/HomePageBlog";
+import { sidebar } from "../../Components/Constants";
+import punemetromap from "../../images/punemetromap.jpeg";
+import MetroTicket from "../../Components/metroTicket";
+
 const featuredPosts = [
   {
-    title: "Featured post",
+    title: "Shopping in Pune",
     date: "Nov 12",
     description:
       "This is a wider card with supporting text below as a natural lead-in to additional content.",
@@ -58,14 +61,27 @@ const featuredPosts = [
   },
 ];
 
-// const posts = [post1, post2, post3];
+const imgStyle = {
+  width: "100%",
+  height: "auto",
+  marginBottom: "50px",
+};
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main>
       <Grid item xs={12}>
         <TimeTable></TimeTable>
       </Grid>
+
+      <Grid container>
+        <img style={imgStyle} src={punemetromap} alt="Map" />
+      </Grid>
+
+      <Grid item xs={12}>
+        <MetroTicket></MetroTicket>
+      </Grid>
+      
 
       <Grid container spacing={2} item xs={12}>
         {featuredPosts.map((post) => (
