@@ -10,7 +10,7 @@ const routes = [
   // { title: "Pubs", url: "/pune/Pubs" },
   { title: "Colleges", url: "/pune/Colleges" },
   { title: "Temples", url: "/pune/Temples" },
-  { title: "HistoricalPlaces", url: "/pune/HistoricalPlaces" },
+  { title: "Historical Places", url: "/pune/HistoricalPlaces" },
   { title: "Gardans", url: "/pune/Gardens" },
   { title: "Museums", url: "/pune/Museums" },
   { title: "Nearby Places", url: "/pune/NearbyPlaces" },

@@ -13,6 +13,7 @@ export default function HistoricalPlaces() {
   const blogStyle = {
     marginTop:"50px"
   }
+
   return (
     <Layout>
       <Grid style={blogStyle}container spacing={5} item xs={12}>
