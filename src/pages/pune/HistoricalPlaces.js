@@ -7,8 +7,6 @@ import Layout from "../../Components/Layout";
 import HistoricalplacesBlog from "../../blogs/HistoricalplacesBlog";
 import { sidebar } from "../../Components/Constants"
 
-
-
 export default function HistoricalPlace() {
   const blogStyle = {
     marginTop:"50px"

@@ -12,7 +12,16 @@ import MetroTicket from "../../Components/metroTicket";
 
 const featuredPosts = [
   {
-    title: "Shopping in Pune",
+    title: "Shopping Centers",
+    date: "Nov 12",
+    description:
+      "This is a wider card with supporting text below as a natural lead-in to additional content.",
+    image: "https://source.unsplash.com/random",
+    imageLabel: "Image Text",
+  },
+
+  {
+    title: "Pune Metro Progress",
     date: "Nov 12",
     description:
       "This is a wider card with supporting text below as a natural lead-in to additional content.",
@@ -20,31 +29,7 @@ const featuredPosts = [
     imageLabel: "Image Text",
   },
   {
-    title: "Featured post",
-    date: "Nov 12",
-    description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    image: "https://source.unsplash.com/random",
-    imageLabel: "Image Text",
-  },
-  {
-    title: "Featured post",
-    date: "Nov 12",
-    description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    image: "https://source.unsplash.com/random",
-    imageLabel: "Image Text",
-  },
-  {
-    title: "Featured post",
-    date: "Nov 12",
-    description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    image: "https://source.unsplash.com/random",
-    imageLabel: "Image Text",
-  },
-  {
-    title: "Post title",
+    title: "Metro Stations",
     date: "Nov 11",
     description:
       "This is a wider card with supporting text below as a natural lead-in to additional content.",
@@ -52,8 +37,24 @@ const featuredPosts = [
     imageLabel: "Image Text",
   },
   {
-    title: "Post title",
+    title: "Pune City",
     date: "Nov 11",
+    description:
+      "This is a wider card with supporting text below as a natural lead-in to additional content.",
+    image: "https://source.unsplash.com/random",
+    imageLabel: "Image Text",
+  },
+  {
+    title: "Parvati Hills",
+    date: "Nov 12",
+    description:
+      "This is a wider card with supporting text below as a natural lead-in to additional content.",
+    image: "https://source.unsplash.com/random",
+    imageLabel: "Image Text",
+  },
+  {
+    title: "Kasarsai Dam",
+    date: "Nov 12",
     description:
       "This is a wider card with supporting text below as a natural lead-in to additional content.",
     image: "https://source.unsplash.com/random",
@@ -81,7 +82,6 @@ export default function HomePage() {
       <Grid item xs={12}>
         <MetroTicket></MetroTicket>
       </Grid>
-      
 
       <Grid container spacing={2} item xs={12}>
         {featuredPosts.map((post) => (

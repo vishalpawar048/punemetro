@@ -22,8 +22,16 @@ const sidebar = {
     "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
   archives: routes,
   social: [
-    { name: "Instagram", icon: InstagramIcon },
-    { name: "Facebook", icon: FacebookIcon },
+    {
+      name: "Instagram",
+      icon: InstagramIcon,
+      url: "https://www.instagram.com/punemetroofficial/?hl=en",
+    },
+    {
+      name: "Facebook",
+      icon: FacebookIcon,
+      url: "https://www.facebook.com/Punemetroofficial-104403448676365",
+    },
   ],
 };
 

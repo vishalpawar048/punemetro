@@ -36,8 +36,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        punemetrorails.com
+      <Link color="inherit" href="https://punemetroofficial.com/">
+        punemetroofficial.com
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
