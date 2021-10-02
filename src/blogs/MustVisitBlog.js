@@ -8,10 +8,10 @@ export default function MustVisitBlog(props) {
   };
   return (
     <div>
-      <h1 id="sample-blog-post">Places to visit in Pune</h1>
-      <h4 id="april-1-2020-by-olivier-">
+      <h1 id="sample-blog-post">Must Visit Places Pune</h1>
+      {/* <h4 id="april-1-2020-by-olivier-">
         Sep 26, 2022 by <a href="/">Vishal</a>
-      </h4>
+      </h4> */}
       <p>
         Pune is a city located in the state of Maharashtra. Previously known as
         Poona, it is a city situated at the junction of Mutha and Mula rivers.

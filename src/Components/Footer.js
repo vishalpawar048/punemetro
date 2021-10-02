@@ -21,7 +21,7 @@ const footers = [
       "Restaurants",
       "Shopping",
       "Museums",
-      "Gardans",
+      "Gardens",
       "Temple",
       "Pubs",
     ],

@@ -3,10 +3,10 @@ import Grid from "@mui/material/Grid";
 import Main from "../../Components/Main";
 import Sidebar from "../../Components/Sidebar";
 import Layout from "../../Components/Layout";
-import RestaurantsBlog from "../../blogs/RestaurantsBlog";
+import TemplesBlog from "../../blogs/TemplesBlog";
 import { sidebar } from "../../Components/Constants";
 
-export default function Restaurants() {
+export default function Temples() {
   const blogStyle = {
     marginTop: "50px",
   };
@@ -14,7 +14,7 @@ export default function Restaurants() {
     <Layout>
       <Grid style={blogStyle} container spacing={5} item xs={12}>
         <Main title="Explore Pune">
-          <RestaurantsBlog />
+          <TemplesBlog />
         </Main>
         <Sidebar
           title={sidebar.title}

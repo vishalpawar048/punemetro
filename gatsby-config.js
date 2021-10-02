@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "punemetro",
+    siteUrl: "https://punemetroofficial.gatsbyjs.io/",
+    title: "punemetroofficial",
   },
   plugins: [
     "gatsby-plugin-styled-components",
