@@ -12,14 +12,14 @@ export default function MuseumBlog(props) {
       {/* <h4 id="april-1-2020-by-olivier-">
         Sep 26, 2022 by <a href="/">Vishal</a>
       </h4> */}
-      <p>
+      {/* <p>
         Pune is a city located in the state of Maharashtra. Previously known as
         Poona, it is a city situated at the junction of Mutha and Mula rivers.
         It is also given the name – “Queen of the Deccan”. It is considered as a
         capital of culture for the people of Maratha. There are a lot of
         intresting historical places in Pune. Following are some must visit
         places.
-      </p>
+      </p> */}
 
       {/* Start */}
       <h2 id="heading">1. National War Museum</h2>
@@ -38,7 +38,7 @@ export default function MuseumBlog(props) {
         <p></p>Timings: Sunday to Saturday 9.30am-12.30pm, 3-7pm, Tuesday
         closed.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
 

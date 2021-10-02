@@ -1,5 +1,6 @@
 import * as React from "react";
 import shaniwarwada from "../images/Shanivarwada.jpeg";
+import { shoppingPlaces } from "../images/imageUrls.json";
 
 export default function ShoppingPlaces(props) {
   const imgStyle = {
@@ -12,14 +13,14 @@ export default function ShoppingPlaces(props) {
       {/* <h4 id="april-1-2020-by-olivier-">
         Sep 26, 2022 by <a href="/">Vishal</a>
       </h4> */}
-      <p>
+      {/* <p>
         Pune is a city located in the state of Maharashtra. Previously known as
         Poona, it is a city situated at the junction of Mutha and Mula rivers.
         It is also given the name – “Queen of the Deccan”. It is considered as a
         capital of culture for the people of Maratha. There are a lot of
         intresting historical places in Pune. Following are some must visit
         places.
-      </p>
+      </p> */}
 
       {/* Start */}
       <h2 id="heading">1. Hong Kong Lane</h2>
@@ -37,7 +38,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: Hong Kong Lane, Deccan Gymkhana, Pune
         <p></p>Timings: 10:00 AM - 7:30 PM
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      <img
+        src={shoppingPlaces.hongHongLane}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
 
@@ -56,6 +61,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: Bhavani Peth, Shobhapur, Kasba Peth, Pune
         <p></p>Timings: 09:00 AM - 9:00 PM
       </p>
+      <img
+        src={shoppingPlaces.fashionStreet}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">3. Tulsi Baug</h2>
@@ -70,6 +80,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: 93, Laxmi Rd, Tulshibaug, Budhwar Peth
         <p></p>Timings: 09:00 AM - 11:00 PM
       </p>
+      <img
+        src={shoppingPlaces.tulsiBag}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">4. Juna Bazar</h2>
@@ -87,11 +102,16 @@ export default function ShoppingPlaces(props) {
         <p></p>Timings: 10:00 AM - 10:00 PM (Operational only on Wednesdays and
         Sundays.)
       </p>
+      <img
+        src={shoppingPlaces.junaBazar}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
-      <h2 id="heading">5. Fergusson College Road</h2>
+      <h2 id="heading">5. FC Road</h2>
       <p>
-        F.C. Road is a college crowd hotspot and perhaps one of the most lively
+        FC Road is a college crowd hotspot and perhaps one of the most lively
         areas for shopping in Pune. The prices of clothing here are too good to
         be true. Earrings and bags here are to die for! Also, you can match your
         dresses with innumerable phone cases available here. Located in the
@@ -101,6 +121,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: Fergusson College Road, Shivajinagar, Pune
         <p></p>Timings: 10:00 AM - 10:00 PM
       </p>
+      <img
+        src={shoppingPlaces.fcRoad}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">6. Clover Centre</h2>
@@ -113,6 +138,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: Clover Center, Moledina Road, Camp, Pune
         <p></p>Timings: 9:30 AM - 9:00 PM
       </p>
+      <img
+        src={shoppingPlaces.cloverCenter}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">7. ABC, Pune</h2>
@@ -127,6 +157,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: Near Laxmi Road, Budhwar Peth, Pune
         <p></p>Timings: 9:00 AM - 10:00 PM
       </p>
+      <img
+        src={shoppingPlaces.abcPune}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">8. Laxmi Road</h2>
@@ -145,6 +180,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: Laxmi Road, Pune
         <p></p>Timings: 10:00 AM - 11:00 PM (Except Mondays)
       </p>
+      <img
+        src={shoppingPlaces.laxmiRoad}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">9. M.G. Road</h2>
@@ -161,6 +201,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: M.G. Road, Pune
         <p></p>Timings: 10:00 AM to 11:00 PM
       </p>
+      <img
+        src={shoppingPlaces.mgRoad}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">10. Koregaon Park</h2>
@@ -177,6 +222,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: Koregaon Park, Ghorpadi, Pune
         <p></p>Timings: 10:00 AM to 11:00 PM
       </p>
+      <img
+        src={shoppingPlaces.koregaonPark}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">11. Mahatma Phule Mandai</h2>
@@ -193,20 +243,11 @@ export default function ShoppingPlaces(props) {
         <p></p>Location: Shukrawar Peth, Mandai, Pune
         <p></p>Timings: 10:00 AM - 8:00 PM (Not fully operational on Sundays)
       </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">12. Bajirao Road</h2>
-      <p>
-        This area accommodates all your home and furniture needs. Bajirao Road
-        is apt for all home décor enthusiasts or if you're looking for a
-        home-makeover on budget. This place strikes a close competition with
-        high-end furniture brands. It is the perfect place for customised and
-        self-designed furniture where commercial furniture sold at attractive
-        prices. Shops here stretch over Puram Chowk and ends at Shaniwar Wada
-        Palace.
-        <p></p>Location: Bajirao Rd, Puram Chowk, Pune, Maharashtra
-        <p></p>Timings: 9:30 AM - 6:00 PM
-      </p>
+      <img
+        src={shoppingPlaces.mahatmaPhulemandai}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
     </div>
   );

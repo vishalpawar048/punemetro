@@ -12,14 +12,14 @@ export default function GardensBlog(props) {
       {/* <h4 id="april-1-2020-by-olivier-">
         Sep 26, 2022 by <a href="/">Vishal</a>
       </h4> */}
-      <p>
+      {/* <p>
         Pune is a city located in the state of Maharashtra. Previously known as
         Poona, it is a city situated at the junction of Mutha and Mula rivers.
         It is also given the name – “Queen of the Deccan”. It is considered as a
         capital of culture for the people of Maratha. There are a lot of
         intresting historical places in Pune. Following are some must visit
         places.
-      </p>
+      </p> */}
 
       {/* Start */}
       <h2 id="heading">1. Bund Garden</h2>
@@ -37,7 +37,7 @@ export default function GardensBlog(props) {
         <p></p>Entry fee - no entry fee.
         <p></p>Timings - 6 am to 9 pm, every day.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
       <h2 id="heading">2. Saras Baug</h2>
@@ -105,7 +105,7 @@ export default function GardensBlog(props) {
         <p></p>Entry fee - INR 5 per person.
         <p></p>Timings - 10 am to 5 pm, every day.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
       <h2 id="heading">6. Rajiv Gandhi National Park</h2>
@@ -121,7 +121,7 @@ export default function GardensBlog(props) {
         Dairy, Katraj, Pune, Maharashtra. Entry fee - INR 15 Timings - 9.30 am
         to 6 pm, open every day except on Wednesdays.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
       <h2 id="heading">7. Chittaranjan Vatika garden</h2>
@@ -139,7 +139,7 @@ export default function GardensBlog(props) {
         <p></p>Entry fee - no entry fee.
         <p></p>Timings - 6 am to 11.30 am, 4 pm to 8 pm.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
       <h2 id="heading">8. Sambhaji Park</h2>
@@ -158,7 +158,7 @@ export default function GardensBlog(props) {
         aquarium, INR 2 for adults.
         <p></p>Timings - 8 am to 11.30 am, 4 pm to 8.30 pm, every day.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
       <h2 id="heading">9. Baner Pashan Biodiversity Park</h2>
@@ -175,7 +175,7 @@ export default function GardensBlog(props) {
         <p></p>Entry fee - no entry fee.
         <p></p>Timings - 5.30 am to 6.30 pm, every day.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
       <h2 id="heading">10. Katraj Snake Park</h2>
@@ -193,7 +193,7 @@ export default function GardensBlog(props) {
         <p></p>Entry fee - INR 3 for adults, INR 2 for kids.
         <p></p>Timings - 10.30 am to 6 pm, open every day except on Wednesdays.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
       <h2 id="heading">11. Peshwa Udyan</h2>
@@ -209,7 +209,7 @@ export default function GardensBlog(props) {
         <p></p>Entry fee - INR 20 for adults, INR 10 for children.
         <p></p>Timings - 10 am to 1 pm, 2 pm to 5 pm, every day.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
       <h2 id="heading">12. Empress Garden</h2>
@@ -227,7 +227,7 @@ export default function GardensBlog(props) {
         <p></p>Entry fee - INR 15 for adults and children above 3 years of age.
         <p></p>Timings - 9.30 am to 6.30 pm, every day.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
       {/* Start */}
       <h2 id="heading">13. Tathawade Park</h2>
@@ -244,7 +244,7 @@ export default function GardensBlog(props) {
         <p></p>Entry fee - no entry fee.
         <p></p>Timings - 6 am to 10 am, and 4 pm to 8.30 pm, every day.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img> */}
       {/* End */}
     </div>
   );

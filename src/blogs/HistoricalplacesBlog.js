@@ -1,6 +1,6 @@
 import * as React from "react";
 import shaniwarwada from "../images/Shanivarwada.jpeg";
-
+import { historicalPlaces } from "../images/imageUrls.json";
 export default function HistoricalplacesBlog(props) {
   const imgStyle = {
     width: "100%",
@@ -12,14 +12,14 @@ export default function HistoricalplacesBlog(props) {
       {/* <h4 id="april-1-2020-by-olivier-">
         Sep 26, 2022 by <a href="/">Vishal</a>
       </h4> */}
-      <p>
+      {/* <p>
         Pune is a city located in the state of Maharashtra. Previously known as
         Poona, it is a city situated at the junction of Mutha and Mula rivers.
         It is also given the name – “Queen of the Deccan”. It is considered as a
         capital of culture for the people of Maratha. There are a lot of
         intresting historical places in Pune. Following are some must visit
         places.
-      </p>
+      </p> */}
 
       {/* Start */}
       <h2 id="heading">1. Shaniwar Wada Palace</h2>
@@ -42,7 +42,11 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Location: Ganpati Bhavan, 250, Budhvar Peth, Shivaji Road, Pune,
         Maharashtra 411002.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      <img
+        src={historicalPlaces.shaniwarWada}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">2. Aga Khan Palace</h2>
@@ -85,6 +89,12 @@ export default function HistoricalplacesBlog(props) {
         the palace existed and the Sultan who built it wanted to help the poor
         in the region.
       </p>
+      <img
+        src={historicalPlaces.agakhanPalace}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
       <h2 id="heading">3. Dagdusheth Halwai Temple</h2>
@@ -107,6 +117,12 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Location: Ganpati Bhavan, 250, Budhvar Peth, Shivaji Road, Pune,
         Maharashtra 411002.
       </p>
+      <img
+        src={historicalPlaces.dagduShet}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
       <h2 id="heading">4. National Defence Academy</h2>
@@ -141,6 +157,12 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Location: NDA Alumni Association, National Defence Academy, PO
         NDA Khadakwasla, Pune-411023.
       </p>
+      <img
+        src={historicalPlaces.NDA}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
       <h2 id="heading">5. Raja Dinkar Kelkar Museum</h2>
@@ -177,6 +199,12 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Location: 1377-78, Natu Baug,Off. Bajirao Road,Shukrawar Peth,
         Pune, Maharashtra 411002.
       </p>
+      <img
+        src={historicalPlaces.dinakarkelkar}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
       <h2 id="heading">6. Sinhagad Fort</h2>
@@ -224,6 +252,12 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Network Connectivity: You may face network connectivity
         disturbances at the topmost position of Sinhagad Fort.
       </p>
+      <img
+        src={historicalPlaces.sinhgadFort}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
       <h2 id="heading">7. Shinde Chhatri</h2>
@@ -250,34 +284,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Entry fee: There is no entry fee to visit the landmark.
         <p></p>Location: Wanowrie, Pune 411001, India.
       </p>
+      <img
+        src={historicalPlaces.shindeChatri}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">8. National War Museum</h2>
-      <p>
-        The memory of brave Indian soldiers who lost their lives in the line of
-        fire, National War Museum is one of the most amazing Pune tourist
-        places. Engulfed by a blanket of greenery, National War Museum is the
-        only war memorial in South Asia that was built by the contributions of
-        common citizenry.
-        <p></p>National War Museum is an interesting visit to appreciate the
-        efforts of citizens in Pune in acknowledging the valour of Indian
-        soldiers. One who visits here can get a chance to get a glimpse of a
-        MiG-23BN which was used in the Kargil war. Another fascinating thing on
-        display here is the replica of INS Trishul which offered its services in
-        the India-Pakistan War of 1971 and Liberation of Goa. National War
-        Museum offers a great trip for students and people interested in Indian
-        defence history.
-        <p></p>Location: Prince Of Wales Drive, Ghorpuri Lines, Dobarvadi,
-        Ghorpadi, Pune, Maharashtra
-        <p></p>Best Time to visit: July to March are the best months of the year
-        for seeing this place on a trip to Pune
-        <p></p>Entry fee: There are no entrance fees to visit here
-        <p></p>Timings: National War Museum can be visited any day of the week
-        from 9:00 am to 5:30 pm
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">9. Mahatma Phule Museum</h2>
+      <h2 id="heading">8. Mahatma Phule Museum</h2>
       <p>
         Founded in the year 1890, Mahatma Phule Museum is one of the must-visit
         Pune tourist attractions for history buffs. Earlier established as Lord
@@ -299,9 +314,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Timings: The timings are from 10:30 am to 5:30 pm. The museum
         remains closed on Wednesdays.
       </p>
+      <img
+        src={historicalPlaces.mahatmaPhule}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">10. Khadakwasla Dam</h2>
+      <h2 id="heading">9. Khadakwasla Dam</h2>
       <p>
         Khadakwasla Dam is one of the primary visiting places in Pune located at
         Khadakwasla, the location where the NDA is. The dam is built on the
@@ -335,9 +356,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Location: Khadakwasla Dam, near Khadakwasla Village, off Sinhagad
         Road, Maharashtra 411024.
       </p>
+      <img
+        src={historicalPlaces.khadakwasla}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">11. Empress Garden</h2>
+      <h2 id="heading">10. Empress Garden</h2>
       <p>
         Empress Garden managed by the Agri-Horticultural Society of Western
         India. Since 1880, the Empress Garden was under this society and it has
@@ -363,9 +390,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Location: Near Race Course, Kavade Mala, Ghorpadi, Pune,
         Maharashtra 411001, India.
       </p>
+      <img
+        src={historicalPlaces.empressGarden}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">12.David Synagogue </h2>
+      <h2 id="heading">11.David Synagogue </h2>
       <p>
         An old synagogue located in Pune is Ohel David Synagogue or Lal Deval,
         situated on Moledina Road in Pune. It was the idea of a philanthropist
@@ -387,9 +420,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Location: Dr. Ambedkar Road Moledina Road (Opposite Nehru
         Memorial Hall), Gawaliwada Camp, Pune, Maharashtra 411001, India.
       </p>
+      <img
+        src={historicalPlaces.davidSynagogue}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">13. Pataleshwar Cave Temple</h2>
+      <h2 id="heading">12. Pataleshwar Cave Temple</h2>
       <p>
         Pataleshwar Cave Temple which is an ancient temple that dates back to
         the 8th century during the Rashtrakuta period. This temple is one of the
@@ -409,9 +448,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Location: Jangali Maharaj Road, Revenue Colony, Shivajinagar,
         Pune, Maharashtra 411005.
       </p>
+      <img
+        src={historicalPlaces.pataleshwar}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">14. Lohagad Fort </h2>
+      <h2 id="heading">13. Lohagad Fort </h2>
       <p>
         Lohagad Fort, being the power seat for the Nizam, Mughal, and Maratha
         dynasties, holds an important place in the country’s history. Located at
@@ -425,26 +470,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Price: No entry fee.
         <p></p>Timings: Every day 9:00 am to 6:00 pm.
       </p>
+      <img
+        src={historicalPlaces.lohgadFort}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">15. Shivaji Bridge</h2>
-      <p>
-        One of the most important architectural landmarks in Pune, Shivaji
-        Bridge is a must-visit while here. This massive structure, also known as
-        Lloyd Bridge, though was built over 110 years ago, is still known as
-        ‘Nava Pul’ or the new bridge. Walking over this bridge, built over the
-        Mutha River, will take you back to the grandeur of the majestic Mughal
-        era.
-        <p></p>Don’t miss to see the bridge’s beautiful black basalt stone
-        arches, carved poles, and flower motifs. Historians believe that some
-        ancient Hindu and Jain relics are buried beneath the bridge.
-        <p></p>Location: Near Pune Municipal Corporation Building.
-        <p></p>Price: No entry fee.
-        <p></p>Timings: Accessible at all times.
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">16. Chatushrungi Mata Temple</h2>
+      <h2 id="heading">14. Chatushrungi Mata Temple</h2>
       <p>
         This temple, famous for its location on a mountain slope, is one of the
         most revered Hindu temples in Pune. Dating back to over 300 years to the
@@ -461,9 +495,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Price: No entry fee.
         <p></p>Timings: Every day 6:00 am to 9:00 pm.
       </p>
+      <img
+        src={historicalPlaces.chaturshringimandir}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">17. Vishrambaug Wada</h2>
+      <h2 id="heading">15. Vishrambaug Wada</h2>
       <p>
         An important architectural landmark of the glorious Maratha regime is
         Vishrambaug Wada, built in the 18th-century by Peshwa Bajiro as his
@@ -477,9 +517,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Price: Rs. 5 per adult.
         <p></p>Timings: Every day (except Monday) 10:00 am to 7:00 pm
       </p>
+      <img
+        src={historicalPlaces.vishramBagWada}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">18. Shivneri Fort</h2>
+      <h2 id="heading">16. Shivneri Fort</h2>
       <p>
         One of the most important historical places in Pune, the Shivneri Fort
         is the birthplace of Chhatrapati Shivaji Maharaj. Famous for its
@@ -495,9 +541,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Price: No entry fee.
         <p></p>Timings: Every day 5:30 am to 7: 30 pm.
       </p>
+      <img
+        src={historicalPlaces.shivneriFord}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">19. Rasalgad</h2>
+      <h2 id="heading">17. Rasalgad</h2>
       <p>
         The fact that not much is known about the history of this fort except
         that it was captured by the British from the Peshwas, makes it one of
@@ -512,28 +564,16 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Price: No entry fee.
         <p></p>Timings: Can be visited anytime.
       </p>
+      <img
+        src={historicalPlaces.rasalGad}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
+
       {/* Start */}
-      <h2 id="heading">20. National War Museum</h2>
-      <p>
-        As one of the best historical places in Pune, National War Museum is
-        sure to fill you with patriotism and pride. This one of a kind museum is
-        self-funded by the city’s citizens to honor the war heroes. It houses
-        never seen before memorabilia, murals, documents, and pictures related
-        to the Kargil War, various Maratha Kings, and other important events.
-        <p></p>People love to see the replicas of combat vehicles like MIG 23 BN
-        Jet, INS Trishul, etc. There is even a captured Pakistani Patton Tank
-        here including different kinds of guns and rocket launchers. Don’t miss
-        to try your hand on paintball at the museum’s shooting area.
-        <p></p>Location: Prince of Wales Dr. Road, Ghorpuri Lines, Dobarwadi,
-        Ghorpadi, Pune.
-        <p></p>Price: No entry fee.
-        <p></p>Timings: Every day from 9:30 am to 12:00 pm, and 3:00 pm to 7:00
-        pm.
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">21. Tribal Museum</h2>
+      <h2 id="heading">18. Tribal Museum</h2>
       <p>
         Tribal communities have always been fascinating, and this museum is a
         great place to get to know these elusive people, which otherwise is not
@@ -550,9 +590,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Price: Rs. 10 per adult.
         <p></p>Timings: Every day (except Sunday)- 10: 00 am to 5:00 pm.
       </p>
+      <img
+        src={historicalPlaces.tribalMuseum}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">22. Dehu Gatha temple</h2>
+      <h2 id="heading">19. Dehu Gatha temple</h2>
       <p>
         Dehu Gatha Temple is the largest and the most revered temple in the
         city. Dedicated to Sant Tukaram Maharaj, it was built in the
@@ -568,9 +614,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Price: No entry fee.
         <p></p>Timings: Every day
       </p>
+      <img
+        src={historicalPlaces.gathamandir}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">23. Nana Wada</h2>
+      <h2 id="heading">20. Nana Wada</h2>
       <p>
         The 17th-century Nana Wada stands as an ode to Nana Phadanvis, one of
         the bravest Peshwa fighters. This is one of the oldest historical places
@@ -585,9 +637,15 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Price: No entry fee.
         <p></p>Timings: Every day 8:00 am to 8:00 pm.
       </p>
+      <img
+        src={historicalPlaces.nanaWada}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">24. Bhide Wada</h2>
+      <h2 id="heading">21. Bhide Wada</h2>
       <p>
         Bhide Wada occupies a very important position in the societal
         development of Pune, especially for girl’s education. This is the site
@@ -602,6 +660,12 @@ export default function HistoricalplacesBlog(props) {
         <p></p>Price: No entry fee.
         <p></p>Timings: Can be visited anytime
       </p>
+      <img
+        src={historicalPlaces.bhideWada}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
     </div>
   );

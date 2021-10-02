@@ -1,5 +1,6 @@
 import * as React from "react";
-import shaniwarwada from "../images/Shanivarwada.jpeg";
+// import colleges from "../images/Shanivarwada.jpeg";
+import { colleges } from "../images/imageUrls.json";
 
 export default function CollegesBlog(props) {
   const imgStyle = {
@@ -13,15 +14,46 @@ export default function CollegesBlog(props) {
         Sep 26, 2022 by <a href="/">Vishal</a>
       </h4> */}
       <p>
-        Pune is a city located in the state of Maharashtra. Previously known as
-        Poona, it is a city situated at the junction of Mutha and Mula rivers.
-        It is also given the name – “Queen of the Deccan”. It is considered as a
-        capital of culture for the people of Maratha. There are a lot of
-        intresting historical places in Pune. Following are some must visit
-        places.
+        The academic fervour in Pune is so strong that it blurs the boundaries
+        between college campuses and the rest of the city Known as the Oxford of
+        the East the city of Pune has a rich legacy in education. And this
+        legacy preceeds the establishment of the University of Pune (formerly
+        known as the University of Poona) in the year 1949. Being the cultural
+        capital of Maharashtra the city has always had an intrinsic connection
+        with theatre, music, arts and literature and been a centre of learning
+        and research in all fields.
       </p>
       {/* Start */}
-      <h2 id="heading">1. COEP College </h2>
+      <h2 id="heading">1. Savitribai Phule Pune University</h2>
+      <p>
+        University of Pune was established on 10 February 1949 under the Pune
+        University Act, passed by the Bombay legislature in 1948. M. R. Jayakar
+        became its first Vice-Chancellor. Its first office was started from the
+        Nizam Guest House, which is part of Bhandarkar Oriental Research
+        Institute on Law College Road. The university was operated at Nizam
+        Guest House till 1 June 1949. Its current building originally called the
+        Governor House. As its name suggests, it was the seasonal retreat of the
+        Governor of Bombay.B. G. Kher, Chief Minister and Education Minister of
+        the government of Bombay, helped ensure the university received a large
+        allocation of land for their campus. The university was allocated over
+        411 acres.
+        <p></p>The institution's name was changed from the University of Pune to
+        Savitribai Phule Pune University on 9 August 2014 in honor of Savitribai
+        Phule, the 19th century Indian social reformer who played an important
+        role in improving the lives of women and the Dalit communities in
+        Maharashtra during British colonial rule. She and her husband Mahatma
+        Jyotirao Phule founded India's first native-run school for girls in
+        1848.
+        <p></p>Address: Ganeshkhind Rd, Ganeshkhind, Pune, Maharashtra 411007
+      </p>
+      <img
+        src={colleges.puneuniversity}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+      {/* End */}
+      {/* Start */}
+      <h2 id="heading">2. COEP College </h2>
       <p>
         College of Engineering, Pune (CoEP), chartered in 1854 is a nationally
         respected leader in technical education. The institute is distinguished
@@ -46,10 +78,10 @@ export default function CollegesBlog(props) {
         <p></p>Pune-411 005.
         <p></p>Maharashtra, INDIA.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      <img src={colleges.coep} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
       {/* Start */}
-      <h2 id="heading">2. Fergusson College</h2>
+      <h2 id="heading">3. Fergusson College</h2>
       <p>
         With the end of the East India Company's regime in India and the failure
         of the first armed uprising in 1857, for India's freedom, a new era
@@ -81,9 +113,10 @@ export default function CollegesBlog(props) {
         <p></p>Address: Fergusson College Rd, Shivajinagar, Pune, Maharashtra
         411004.
       </p>
+      <img src={colleges.furgusson} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
       {/* Start */}
-      <h2 id="heading">3. MIT PUNE</h2>
+      <h2 id="heading">4. MIT PUNE</h2>
       <p>
         MIT Group of Institutions initiated the revolutionary spread of
         technical education in Maharashtra facilitating quality education to a
@@ -112,9 +145,10 @@ export default function CollegesBlog(props) {
         <p></p>Address: No. 124, Paud Rd, Mahatma Society, Kothrud, Pune,
         Maharashtra 411029.
       </p>
+      <img src={colleges.mit} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
       {/* Start */}
-      <h2 id="heading">4. Symbiosis College</h2>
+      <h2 id="heading">5. Symbiosis College</h2>
       <p>
         Symbiosis is a family of academic institutions which include University,
         Colleges, Centres, and Schools which have been imparting quality
@@ -129,9 +163,30 @@ export default function CollegesBlog(props) {
         <p></p>Address: Clover Park, New Airport Road, Viman Nagar Road, Viman
         Nagar, Pune, Maharashtra 411014
       </p>
+      <img src={colleges.symboisys} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
       {/* Start */}
-      <h2 id="heading">5. Bharati Vidyapeeth</h2>
+      <h2 id="heading">6. Film and Television Institute of India</h2>
+      <p>
+        The Film and Television Institute of India (FTII) is a film institute
+        under the Ministry of Information and Broadcasting of the Government of
+        India and aided by the Central Government of India. It is situated on
+        the premises of the erstwhile Prabhat Film Company in Pune. It was
+        established in 1960 and its alumni includes technicians, actors and
+        directors in the film and television industry. FTII is a member of the
+        International Liaison Centre of Schools of Cinema and Television
+        (CILECT), an organisation of the world's leading schools of film and
+        television. The Centre will set up a new Institute in Arunachal Pradesh
+        as part of an initiative to tap the potential of the North Eastern
+        region, Union Minister of State (Independent Charge) for Development of
+        North Eastern Region, Dr. Jitendra Singh has informed.
+        <p></p>Address: No.11, Law College Rd, Shanti Sheela Society, Erandwane,
+        Pune, Maharashtra 411004
+      </p>
+      <img src={colleges.ftii} style={imgStyle} alt="Shaniwar Wada"></img>
+      {/* End */}
+      {/* Start */}
+      <h2 id="heading">7. Bharati Vidyapeeth</h2>
       <p>
         The institutions of Bharati Vidyapeeth (BV) was accorded deemed
         university status in 1996 for its academic excellence. The Bharati
@@ -147,30 +202,14 @@ export default function CollegesBlog(props) {
         <p></p>Address: Next to Alka Talkies 13, Lal Bahadur Shastri Rd,
         Sadashiv Peth, Pune, Maharashtra 411030
       </p>
+      <img
+        src={colleges.bhartiVidyapeeth}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
-      <h2 id="heading">6. D Y Patil College</h2>
-      <p>
-        Since 1983, D Y Patil Group of Institutions is leading group known
-        amongst the top education institutions in India. The D Y Patil
-        University, Pune was established by and under the Government of
-        Maharashtra Act No. VI of 2019 and recognized by UGC, New Delhi, India
-        <p></p>D Y Patil Group of Institutions is founded to provide quality
-        education and contribute towards the social responsibility. The
-        foundation was laid by Father Founder Hon’ble Dr D Y Patil in the year
-        1983 by starting the first engineering college in Navi Mumbai. Group
-        began to grow exponentially in all the fields of education namely,
-        Agriculture, Medical, Science, Engineering, Management, Design and many
-        more. Under the leadership of father founder Padma Shri Dr D Y Patil
-        group has more 12 campuses across India those includes 6 Universities
-        and more than 150 Institutes which are engaged in delivering education
-        from KG to PG.
-        <p></p>Address: Sant Tukaram Nagar, Pimpri Colony, Pune, Maharashtra
-        411018
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">7. S P College</h2>
+      <h2 id="heading">8. S P College</h2>
       <p>
         <p></p>Sir Parashurambhau College (S.P. College) is an Autonomous (since
         2019) college in Pune, Maharashtra, India. Established in 1916, as New
@@ -188,9 +227,10 @@ export default function CollegesBlog(props) {
         <p></p>Address: Lokmanya Bal Gangadhar Tilak Rd, Lokamanya Nagar,
         Perugate, Sadashiv Peth, Pune, Maharashtra 411030
       </p>
+      <img src={colleges.SPcollege} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
       {/* Start */}
-      <h2 id="heading">8. Sinhgad College</h2>
+      <h2 id="heading">9. Sinhgad College</h2>
       <p></p> Sinhgad College of Engineering (SCOE) is private unaided
       institution that was established in the year 1996. The institute offers
       eight undergraduate engineering programmes of four year duration namely
@@ -209,30 +249,11 @@ export default function CollegesBlog(props) {
       <p></p>Address: S. No. 44/1, Off. Sinhgad Road, Vadgaon Budruk, Pune,
       Maharashtra 411041
       <p></p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">9. Savitribai Phule Pune University</h2>
-      <p>
-        University of Pune was established on 10 February 1949 under the Pune
-        University Act, passed by the Bombay legislature in 1948. M. R. Jayakar
-        became its first Vice-Chancellor. Its first office was started from the
-        Nizam Guest House, which is part of Bhandarkar Oriental Research
-        Institute on Law College Road. The university was operated at Nizam
-        Guest House till 1 June 1949. Its current building originally called the
-        Governor House. As its name suggests, it was the seasonal retreat of the
-        Governor of Bombay.B. G. Kher, Chief Minister and Education Minister of
-        the government of Bombay, helped ensure the university received a large
-        allocation of land for their campus. The university was allocated over
-        411 acres.
-        <p></p>The institution's name was changed from the University of Pune to
-        Savitribai Phule Pune University on 9 August 2014 in honor of Savitribai
-        Phule, the 19th century Indian social reformer who played an important
-        role in improving the lives of women and the Dalit communities in
-        Maharashtra during British colonial rule. She and her husband Mahatma
-        Jyotirao Phule founded India's first native-run school for girls in
-        1848.
-        <p></p>Address: Ganeshkhind Rd, Ganeshkhind, Pune, Maharashtra 411007
-      </p>
+      <img
+        src={colleges.sinhgadcollege}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">10. Modern College</h2>
@@ -245,6 +266,11 @@ export default function CollegesBlog(props) {
         <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
         Shivajinagar, Pune, Maharashtra 411005
       </p>
+      <img
+        src={colleges.modernCollegse}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
       {/* End */}
       {/* Start */}
       <h2 id="heading">11. Spicer Adventist </h2>
@@ -261,22 +287,10 @@ export default function CollegesBlog(props) {
         2014.
         <p></p>Address: Aundh Rd, Aundh, Pune, Maharashtra 411067
       </p>
+      <img src={colleges.spicer} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
       {/* Start */}
-      <h2 id="heading">12. Poona College</h2>
-      <p>
-        <p></p> The Poona College of Arts, Science and Commerce is a Muslim
-        minority academic institution in Pune, Maharashtra, India. It was
-        established in the year 1970 by the Anjuman Khairul Islam (A.K.I) trust,
-        Mumbai. It consists of a Junior College (11th and 12th standard) which
-        is under the jurisdiction of the Maharashtra State Board of Secondary
-        and Higher Secondary Education (MSBSHSE), and a Senior College, which is
-        affiliated to the University of Pune.
-        <p></p>Address: Hidayatulla Rd, Katad Khana, Pune, Maharashtra 411002
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">13. Abasaheb Garware College </h2>
+      <h2 id="heading">12. Abasaheb Garware College </h2>
       <p>
         <p></p>Abasaheb Garware College of Arts and Science (commonly referred
         to as Garware College) is a college located in Pune, India. It is run by
@@ -289,25 +303,10 @@ export default function CollegesBlog(props) {
         <p></p>Address: Karve Rd, opp. Sahyadri Hospital, Kripali Society,
         Bharati Niwas Colony, Erandwane, Pune, Maharashtra 411004
       </p>
+      <img src={colleges.garware} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
       {/* Start */}
-      <h2 id="heading">14. AISSMS College</h2>
-      <p>
-        <p></p> AISSMS (All India Shri Shivaji Memorial Society's) College of
-        Engineering is a private engineering college located in Pune,
-        Maharashtra, India. The college is affiliated with the University of
-        Pune and was founded by Chhatrapati Shri Shahu Maharaj of Kolhapur,
-        leading to the college's establishment in 1992. The institute is located
-        close to the Regional Transport Office and shares its campus with a
-        pharmacy college, Polytechnic and business school. At present, AISSMS
-        offers bachelor's degrees in eight branches of engineering: NAAC- A+
-        (3.27 CGPA) & *NBA ACCREDITATION*
-        <p></p> Address: No. 1, Kennedy Road, Near RTO Office Sangamvadi,
-        Shivajinagar, Pune, Maharashtra 411001
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">15. ILS Law college</h2>
+      <h2 id="heading">13. ILS Law college</h2>
       <p>
         <p></p>ILS Law College is a community of Students & Staff dedicated to
         bringing out the best in all of its members. Our aim is to provide the
@@ -323,114 +322,7 @@ export default function CollegesBlog(props) {
         pace.
         <p></p>Address: Law College Rd, Shivajinagar, Pune, Maharashtra 411004
       </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Modern College</h2>
-      <p>
-        <p></p>Modern College of Arts, Science and Commerce (commonly Modern
-        College), is an undergraduate and postgraduate college located in
-        Shivajinagar, Pune. The college was established in the year 1970 and is
-        affiliated with Savitribai Phule Pune University.Modern College was
-        awarded Grade 'A+' in the third cycle of NAAC Accreditation.
-        <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
-        Shivajinagar, Pune, Maharashtra 411005
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Modern College</h2>
-      <p>
-        <p></p>Modern College of Arts, Science and Commerce (commonly Modern
-        College), is an undergraduate and postgraduate college located in
-        Shivajinagar, Pune. The college was established in the year 1970 and is
-        affiliated with Savitribai Phule Pune University.Modern College was
-        awarded Grade 'A+' in the third cycle of NAAC Accreditation.
-        <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
-        Shivajinagar, Pune, Maharashtra 411005
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Modern College</h2>
-      <p>
-        <p></p>Modern College of Arts, Science and Commerce (commonly Modern
-        College), is an undergraduate and postgraduate college located in
-        Shivajinagar, Pune. The college was established in the year 1970 and is
-        affiliated with Savitribai Phule Pune University.Modern College was
-        awarded Grade 'A+' in the third cycle of NAAC Accreditation.
-        <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
-        Shivajinagar, Pune, Maharashtra 411005
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Modern College</h2>
-      <p>
-        <p></p>Modern College of Arts, Science and Commerce (commonly Modern
-        College), is an undergraduate and postgraduate college located in
-        Shivajinagar, Pune. The college was established in the year 1970 and is
-        affiliated with Savitribai Phule Pune University.Modern College was
-        awarded Grade 'A+' in the third cycle of NAAC Accreditation.
-        <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
-        Shivajinagar, Pune, Maharashtra 411005
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Modern College</h2>
-      <p>
-        <p></p>Modern College of Arts, Science and Commerce (commonly Modern
-        College), is an undergraduate and postgraduate college located in
-        Shivajinagar, Pune. The college was established in the year 1970 and is
-        affiliated with Savitribai Phule Pune University.Modern College was
-        awarded Grade 'A+' in the third cycle of NAAC Accreditation.
-        <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
-        Shivajinagar, Pune, Maharashtra 411005
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Modern College</h2>
-      <p>
-        <p></p>Modern College of Arts, Science and Commerce (commonly Modern
-        College), is an undergraduate and postgraduate college located in
-        Shivajinagar, Pune. The college was established in the year 1970 and is
-        affiliated with Savitribai Phule Pune University.Modern College was
-        awarded Grade 'A+' in the third cycle of NAAC Accreditation.
-        <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
-        Shivajinagar, Pune, Maharashtra 411005
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Modern College</h2>
-      <p>
-        <p></p>Modern College of Arts, Science and Commerce (commonly Modern
-        College), is an undergraduate and postgraduate college located in
-        Shivajinagar, Pune. The college was established in the year 1970 and is
-        affiliated with Savitribai Phule Pune University.Modern College was
-        awarded Grade 'A+' in the third cycle of NAAC Accreditation.
-        <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
-        Shivajinagar, Pune, Maharashtra 411005
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Modern College</h2>
-      <p>
-        <p></p>Modern College of Arts, Science and Commerce (commonly Modern
-        College), is an undergraduate and postgraduate college located in
-        Shivajinagar, Pune. The college was established in the year 1970 and is
-        affiliated with Savitribai Phule Pune University.Modern College was
-        awarded Grade 'A+' in the third cycle of NAAC Accreditation.
-        <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
-        Shivajinagar, Pune, Maharashtra 411005
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Modern College</h2>
-      <p>
-        <p></p>Modern College of Arts, Science and Commerce (commonly Modern
-        College), is an undergraduate and postgraduate college located in
-        Shivajinagar, Pune. The college was established in the year 1970 and is
-        affiliated with Savitribai Phule Pune University.Modern College was
-        awarded Grade 'A+' in the third cycle of NAAC Accreditation.
-        <p></p>Adress: Modern Engineering College Rd, Sumukh Society,
-        Shivajinagar, Pune, Maharashtra 411005
-      </p>
+      <img src={colleges.lawCollege} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
     </div>
   );

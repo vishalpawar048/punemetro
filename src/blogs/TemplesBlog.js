@@ -1,5 +1,6 @@
 import * as React from "react";
-import shaniwarwada from "../images/Shanivarwada.jpeg";
+// import temples from "../images/Shanivarwada.jpeg";
+import { temples } from "../images/imageUrls.json";
 
 export default function TemplesBlog(props) {
   const imgStyle = {
@@ -12,14 +13,14 @@ export default function TemplesBlog(props) {
       {/* <h4 id="april-1-2020-by-olivier-">
         Sep 26, 2022 by <a href="/">Vishal</a>
       </h4> */}
-      <p>
+      {/* <p>
         Pune is a city located in the state of Maharashtra. Previously known as
         Poona, it is a city situated at the junction of Mutha and Mula rivers.
         It is also given the name – “Queen of the Deccan”. It is considered as a
         capital of culture for the people of Maratha. There are a lot of
         intresting historical places in Pune. Following are some must visit
         places.
-      </p>
+      </p> */}
 
       {/* Start */}
       <h2 id="heading">1. Dagduseth Halwai Ganpati Temple</h2>
@@ -42,94 +43,10 @@ export default function TemplesBlog(props) {
         <p></p>Location: Ganpati Bhavan, 250, Budhvar Peth, Shivaji Road, Pune,
         Maharashtra 411002.
       </p>
-      <img src={shaniwarwada} style={imgStyle} alt="Shaniwar Wada"></img>
+      <img src={temples.dagduShet} style={imgStyle} alt="Shaniwar Wada"></img>
       {/* End */}
       {/* Start */}
-
-      <h2 id="heading">2. Omkareshwar Temple</h2>
-      <p>
-        Dedicated to Lord Shiva, Omkareshwar temple is one of the biggest
-        temples in Pune. The temple is also among the most ancient temples you
-        will find in the city as it was built under the Peshwa rule.
-        <p></p>Complete with intricate domes and carvings, the temple’s
-        architecture is one of the first things that will strike you and leave
-        you in awe. Apart from the idol of Lord Shiva in the main temple, there
-        are smaller temples as well which have idols of Lord Ganesha, Goddess
-        Durga, Lord Shani, Lord Vishnu and Lord Hanuman.
-        <p></p>Location: Chandrashekhar Govind Aapte Rd, Shaniwar Peth, Pune
-        <p></p>Timings: 5:30 AM – 11 PM
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">3. Kasba Ganpati</h2>
-      <p>
-        Dedicated to the protector of the city – Kasba Ganpati, the temple was
-        built by Chhatrapati Shivaji’s mother, Queen Jijabai. The idol which you
-        will find inside the temple was founded by Shivaji’s teacher.
-        <p></p>While the temple was visited by many, it was popularized after
-        Lokmanya Tilak started celebrating festivals here during the freedom
-        struggle. Since then, the temple has also become important for holding
-        festivities related to Lord Ganesha. Do visit the temple on Ganesh
-        Chaturthi to see the temple in all its glory.
-        <p></p>Location: Kasba Peth Rd, Phadke Haud, Kasba Peth, Pune
-        <p></p>Timings: 6 AM – 9 PM
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">4. Neelkanteshwar Temple</h2>
-      <p>
-        As the name suggests, this temple is dedicated to the Lord with the blue
-        neck – Shiva. One of the most beautiful temples near Pune,
-        Neelkanteshwar temple is situated atop a hillock, 900 metre above sea
-        level. To reach the temple, you will have to trek for about an hour
-        making your journey all the more worthwhile.
-        <p></p>While the structure of the temple resembles South Indian temples,
-        it is the aura and serenity of the temple that draws visitors. From
-        beautiful sunsets to views of the valleys, the location of the temple
-        offers beautiful scenery worth making that steep climb. Click here to
-        know about forts in Pune
-        <p></p>Location: Kondhur, Pune
-        <p></p>Timings: 5 AM – 9 PM
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">5. Laxmi Narasimha Temple</h2>
-      <p>
-        Dedicated to Lord Narasimha, one of the avatars of Lord Vishnu, Shri
-        Laxmi Narasimha Temple is among the most beautiful temples in Pune.
-        Built in the Peshwa architectural style with black stones, the temple
-        took 20 years to be completed and is located on the confluence of Bhima
-        and Nira river. This location of the temple imparts it a surreal setting
-        and elevates the entire aura of the temple. Read also – Churches in Pune
-        <p></p>Apart from fortifying the temple against foreign invasions, the
-        original idol of Lord Narasimha was replaced by a duplicate due to the
-        fear of Mughal emperor Aurangzeb. All this makes for an interesting
-        history of the temple. However, if you want to see glorious celebrations
-        of any Hindu festival, visit it during Vaishakha Navratra to see
-        processions like Dahi Handi.
-        <p></p>Location: Sadashiv Peth, Pune
-        <p></p>Timings: 6 AM – 8 PM
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">6. Parvati Hill Temple</h2>
-      <p>
-        The temple is located atop a hill, 2100 feet above sea level. To reach
-        this beautiful temple in Pune, you will have to climb 103 steps.
-        However, all the exhaustion from such a long climb will fade away when
-        you finally see the temple, its idols and of course, the scenic view of
-        the surrounding area.
-        <p></p>It is said that at the same place where the present temple
-        stands, there used to be a smaller temple (or a shrine) where Nana
-        Saheb’s mother used to go and pray. She was suffering from a disease and
-        she vowed to build a larger temple once she was cured. The temple was
-        then built by Nana Sabeh, the third Peshwa.
-        <p></p>Location: Parvati Paytha, Pune
-        <p></p>Timings: 8 AM – 5 PM
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">7. Swami Narayan Temple</h2>
+      <h2 id="heading">2. Swami Narayan Temple</h2>
       <p>
         BAPS Swaminarayan temple is one the most beautiful temples in Pune. It
         is located on the outskirts of Pune in Nanhe, Ambegaon Khurd. Surrounded
@@ -154,9 +71,131 @@ export default function TemplesBlog(props) {
         <p></p>Address – Mumbai-Bengaluru National Highway 4, Ambe Gaon – Narhe,
         Pune, Maharashtra 411046 India
       </p>
+      <img
+        src={temples.swamiNarayan}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
       {/* Start */}
-      <h2 id="heading">3. Dagdusheth Halwai Temple</h2>
+      <h2 id="heading">3. Parvati Hill Temple</h2>
+      <p>
+        The temple is located atop a hill, 2100 feet above sea level. To reach
+        this beautiful temple in Pune, you will have to climb 103 steps.
+        However, all the exhaustion from such a long climb will fade away when
+        you finally see the temple, its idols and of course, the scenic view of
+        the surrounding area.
+        <p></p>It is said that at the same place where the present temple
+        stands, there used to be a smaller temple (or a shrine) where Nana
+        Saheb’s mother used to go and pray. She was suffering from a disease and
+        she vowed to build a larger temple once she was cured. The temple was
+        then built by Nana Sabeh, the third Peshwa.
+        <p></p>Location: Parvati Paytha, Pune
+        <p></p>Timings: 8 AM – 5 PM
+      </p>
+      <img
+        src={temples.parvatiHills}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
+      {/* End */}
+      {/* Start */}
+      <h2 id="heading">4. Kasba Ganpati</h2>
+      <p>
+        Dedicated to the protector of the city – Kasba Ganpati, the temple was
+        built by Chhatrapati Shivaji’s mother, Queen Jijabai. The idol which you
+        will find inside the temple was founded by Shivaji’s teacher.
+        <p></p>While the temple was visited by many, it was popularized after
+        Lokmanya Tilak started celebrating festivals here during the freedom
+        struggle. Since then, the temple has also become important for holding
+        festivities related to Lord Ganesha. Do visit the temple on Ganesh
+        Chaturthi to see the temple in all its glory.
+        <p></p>Location: Kasba Peth Rd, Phadke Haud, Kasba Peth, Pune
+        <p></p>Timings: 6 AM – 9 PM
+      </p>
+      <img
+        src={temples.kasbaGanpati}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
+      {/* End */}
+      {/* Start */}
+      <h2 id="heading">5. Neelkanteshwar Temple</h2>
+      <p>
+        As the name suggests, this temple is dedicated to the Lord with the blue
+        neck – Shiva. One of the most beautiful temples near Pune,
+        Neelkanteshwar temple is situated atop a hillock, 900 metre above sea
+        level. To reach the temple, you will have to trek for about an hour
+        making your journey all the more worthwhile.
+        <p></p>While the structure of the temple resembles South Indian temples,
+        it is the aura and serenity of the temple that draws visitors. From
+        beautiful sunsets to views of the valleys, the location of the temple
+        offers beautiful scenery worth making that steep climb. Click here to
+        know about forts in Pune
+        <p></p>Location: Kondhur, Pune
+        <p></p>Timings: 5 AM – 9 PM
+      </p>
+      <img
+        src={temples.neelkanteshwar}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
+      {/* End */}
+      {/* Start */}
+      <h2 id="heading">6. Bhuleshwar Shiva Temple</h2>
+      <p>
+        Bhuleshwar Shiva Temple is situated around 45 kilometres from Pune near
+        Yawat on Pune Solapur highway. The ancient temple of Lord Shiva is
+        situated on a hill and known for its unique architecture and classical
+        carvings on the walls.
+      </p>
+      <img src={temples.bhuleshwar} style={imgStyle} alt="Shaniwar Wada"></img>
+
+      {/* End */}
+
+      {/* Start */}
+      <h2 id="heading">7. Jejuri Khandoba Temple</h2>
+      <p>
+        Jejuri city is famous for the temple of Lord Khandoba, situated 48 km
+        from Pune on Pune Pandharpur road at hill top. Lord Khandoba also known
+        as Martanda Bhairava or Malhari Martand, There are over 500 temples
+        dedicated to Lord Khandoba in India.
+      </p>
+      <img src={temples.jejuri} style={imgStyle} alt="Shaniwar Wada"></img>
+
+      {/* End */}
+      {/* Start */}
+      <h2 id="heading">8. Ekvira Devi Temple, Lonavala</h2>
+      <p>
+        Ekvira Devi Temple in Lonavala is located near the Karla Caves and a
+        prime place of worship for the Koli People. Goddess Ekvira or known as
+        Renuka is situated 49 km from Pune and Karla caves are protected by the
+        Archeological of India.
+      </p>
+      <img src={temples.eviraDevi} style={imgStyle} alt="Shaniwar Wada"></img>
+
+      {/* End */}
+      {/* Start */}
+      <h2 id="heading">9. Narayanpur Balaji Temple</h2>
+      <p>
+        Balaji Temple near Narayanpur is a beautiful replica of the Tirumal
+        Tirupati and also known as Sri Venkateswara temple. The temple and
+        surroundings are very beautiful with lush greenery during the monsoon
+        season.
+      </p>
+      <img
+        src={temples.narayangavBalaji}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
+      {/* End */}
+      {/* Start */}
+      <h2 id="heading">10. Bhimashankar Temple</h2>
       <p>
         Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam
@@ -164,46 +203,12 @@ export default function TemplesBlog(props) {
         cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
         sit amet risus.
       </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">8. Dagdusheth Halwai Temple</h2>
-      <p>
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam
-        porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac
-        cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-        sit amet risus.
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">9. Dagdusheth Halwai Temple</h2>
-      <p>
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam
-        porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac
-        cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-        sit amet risus.
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">10. Dagdusheth Halwai Temple</h2>
-      <p>
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam
-        porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac
-        cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-        sit amet risus.
-      </p>
-      {/* End */}
-      {/* Start */}
-      <h2 id="heading">11. Dagdusheth Halwai Temple</h2>
-      <p>
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam
-        porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac
-        cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-        sit amet risus.
-      </p>
+      <img
+        src={temples.bhimashankar}
+        style={imgStyle}
+        alt="Shaniwar Wada"
+      ></img>
+
       {/* End */}
     </div>
   );
